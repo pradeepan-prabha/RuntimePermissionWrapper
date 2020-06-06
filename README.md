@@ -6,12 +6,27 @@ Android Runtime permission only depend on current activity,
 Because even in Non-Activity class is needed Activity instance for onRequestPermissionsResult callback to handle permission result.
 
 ## Example Screenshots
-![test image size](/1.jpg?raw=true "Home Page"){:height="50%" width="50%"}
-![test image size](/2.jpg?raw=true "First runtime request permission"){:height="50%" width="50%"}
-![test image size](/3.jpg?raw=true "First runtime request denied"){:height="50%" width="50%"}
-ShouldShowRequestPermissionRationale is trigger:
-![test image size](/4.jpg?raw=true "User permission explanation"){:height="50%" width="50%"}
-![test image size](/5.jpg?raw=true "Runtime request permission with NeverAskAgain option"){:height="50%" width="50%"}
-![test image size](/6.jpg?raw=true "Runtime permission gradated"){:height="50%" width="50%"}
-![test image size](/7.jpg?raw=true "NeverAskAgain user permission enabled"){:height="50%" width="50%"}
-![test image size](/8.jpg?raw=true "App permission required dialog to navigate to setting"){:height="50%" width="50%"}
+
+### Home Page
+<img src="/1.jpg alt="Home Page" width="25%" height="25%">
+
+### First runtime request permission
+<img src="/2.jpg alt="First runtime request permission" width="25%" height="25%">
+
+### First runtime request denied
+<img src="/3.jpg alt="First runtime request denied" width="25%" height="25%">
+
+###ShouldShowRequestPermissionRationale is trigger, User permission explanation.
+<img src="/4.jpg alt="User permission explanation" width="25%" height="25%">
+
+### Runtime request permission with NeverAskAgain option
+<img src="/5.jpg alt="Runtime request permission with NeverAskAgain option" width="25%" height="25%">
+
+### Runtime permission gradated
+<img src="/6.jpg alt="Runtime permission gradated" width="25%" height="25%">
+
+### NeverAskAgain user permission enabled
+<img src="/7.jpg alt="NeverAskAgain user permission enabled" width="25%" height="25%">
+
+### App permission required dialog to navigate to setting
+<img src="/8.jpg alt="App permission required dialog to navigate to setting" width="25%" height="25%">
