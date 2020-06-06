@@ -1,4 +1,4 @@
-package com.imake.runtimepermissionwrapper
+package com.imake.runtimepermissionwrapper.util
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat

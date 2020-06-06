@@ -1,14 +1,16 @@
 package com.imake.runtimepermissionwrapper
 
 import android.Manifest
-import android.content.pm.PackageManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.core.app.ActivityCompat
+import com.imake.runtimepermissionwrapper.util.PermissionPojo
+import com.imake.runtimepermissionwrapper.util.RunPermissionCallbackResult
+import com.imake.runtimepermissionwrapper.util.RunTimePermissionWrapper
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity(), ActivityCompat.OnRequestPermissionsResultCallback, RunPermissionCallbackResult {
+class RuntimePermissionWithWrapperActivity : AppCompatActivity(), ActivityCompat.OnRequestPermissionsResultCallback,RunPermissionCallbackResult{
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

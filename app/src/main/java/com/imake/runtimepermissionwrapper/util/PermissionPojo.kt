@@ -1,4 +1,4 @@
-package com.imake.runtimepermissionwrapper
+package com.imake.runtimepermissionwrapper.util
 
 class PermissionPojo {
     var permissionName: String = ""

@@ -1,4 +1,4 @@
-package com.imake.runtimepermissionwrapper
+package com.imake.runtimepermissionwrapper.util
 
 interface RunPermissionCallbackResult {
     fun permissionCallbackResult(permissionResultHashMap: HashMap<Int, PermissionPojo>)
