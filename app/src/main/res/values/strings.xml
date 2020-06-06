@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RunTimePermissionWrapper</string>
+    <string name="runtime_permission">RunTime Permission</string>
+</resources>
