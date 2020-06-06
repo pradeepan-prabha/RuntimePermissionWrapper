@@ -16,7 +16,7 @@ Because even in Non-Activity class is needed Activity instance for onRequestPerm
 ### First runtime request denied
 <img src="/3.jpg" alt="First runtime request denied" width="25%" height="25%">
 
-###ShouldShowRequestPermissionRationale is trigger, User permission explanation.
+### ShouldShowRequestPermissionRationale is trigger, User permission explanation.
 <img src="/4.jpg" alt="User permission explanation" width="25%" height="25%">
 
 ### Runtime request permission with NeverAskAgain option
